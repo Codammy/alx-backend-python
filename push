@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# automates git commit and push
+
+chmod u+x *.py
+git add .
+git commit -m "$(ls -t | tail -1)"
+git push
