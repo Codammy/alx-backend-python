@@ -6,6 +6,6 @@
 import typing
 
 
-def kv(k: str, v: typing.Union[list, float])-> typing.Tuple[str, float]:
+def to_kv(k: str, v: typing.Union[list, float])-> typing.Tuple[str, float]:
     """type annotated function"""
     return (k, v**2)
