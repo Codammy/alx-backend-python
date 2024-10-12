@@ -4,6 +4,6 @@
 """
 
 
-def floor(n: float)-> int:
+def floor(n: float) -> int:
     """floor of float"""
     return round(n)
