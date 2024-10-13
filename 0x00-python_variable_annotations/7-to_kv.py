@@ -6,11 +6,6 @@
 import typing
 
 
-def to_kv(k: str, v: typing.Union[list, float]) -> typing.Tuple[str, float]:
+def to_kv(k: str, v: typing.Union[int, float]) -> typing.Tuple[str, float]:
     """type annotated function"""
-    if type(v) is list:
-        sum = 0.0
-        for fi in v:
-            sum += fi
-        return fi
     return (k, v**2)
