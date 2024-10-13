@@ -2,8 +2,9 @@
 """
     type-annnotated floor
 """
+import math
 
 
 def floor(n: float) -> int:
     """floor of float"""
-    return round(n)
+    return int(n / 1)
