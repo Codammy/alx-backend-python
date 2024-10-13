@@ -6,7 +6,8 @@ from types import NoneType
 import typing
 
 
-def safe_first_element(lst: typing.Sequence[typing.Any])-> typing.Union[typing.Any, NoneType]:
+def safe_first_element(lst: typing.Sequence[typing.Any]) -> typing.Union[typing.Any, NoneType]:
+    """annotated function"""
     if lst:
         return lst[0]
     else:
