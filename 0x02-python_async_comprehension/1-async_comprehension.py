@@ -8,7 +8,6 @@
 
 async def async_comprehension() -> list[float]:
     """async_comprehension that takes no arguments"""
-
     async_generator = __import__("0-async_generator").async_generator
     random_10 = [i async for i in async_generator()]
     return random_10
